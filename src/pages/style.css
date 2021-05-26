@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;    
+    font-family: "OpenSans"!important;
+    color: #adadad!important;
+}
+
+.ui.card>.content>.header {
+    color: #18abb6 !important;  
+    font-weight: 900!important;
+}
+
+.ui.card>.content>.description {
+    color: #adadad!important;
+    font-size: 1rem!important;
+    margin-bottom: 2rem!important;    
+    font-family: "OpenSans";
+}
+
+.ui.form .field>label {
+    display: block;
+    color: #adadad!important;
+    font-size: 0.75rem !important;
+    font-family: "OpenSans";
+}
+
+.ui.form .required.fields:not(.grouped) > .field > label:after,
+.ui.form .required.fields.grouped > label:after,
+.ui.form .required.field > label:after,
+.ui.form .required.fields:not(.grouped) > .field > .checkbox:after,
+.ui.form .required.field > .checkbox:after {
+    margin: -0.2em 0em 0em 0.2em;
+    content: '*';
+    color: #18abb6 !important;
+}
+
+.ui.form .field .ui.input input, .ui.form .fields .field .ui.input input {
+    width: '100%';
+    height: 45px;
+}
+
+.ui.button {
+    background-color: #18abb6 !important;
+    color: #ffffff !important;
+    width: auto;
+    height: 45px;
+}
