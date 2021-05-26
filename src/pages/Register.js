@@ -108,12 +108,11 @@ const Register = () => {
             relaxed
             stackable 
             style={{
-                heigth: '100vh',
                 backgroundColor: '#5d6070',
-                padding: '1.875rem 0', // 30px
-                margin: '0 auto'
+                heigth: '100vh',
+                margin: '0 auto',
+                padding: '1.875rem 0' // 30px
             }}
-            verticalAlign='middle' 
         >
             <Grid.Column width={4}/>
 
@@ -121,9 +120,9 @@ const Register = () => {
                 computer={8}
                 mobile={16}                    
                 style={{
-                    marginTop: '1.875rem', //30px
+                    margin: '1.875rem auto', //30px
                     maxWidth: '440px',
-                    padding: '0'
+                    padding: '6.25rem 0'
                 }}                    
                 tablet={16}
                 width={8}

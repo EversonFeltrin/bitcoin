@@ -53,7 +53,6 @@ const Exibition = () => {
                 margin: '0 auto',
                 padding: '1.875rem 0'
             }}
-            verticalAlign='middle'
         >
             <Grid.Column width={4}/>
 
@@ -61,15 +60,16 @@ const Exibition = () => {
                 computer={8}
                 mobile={16}
                 style={{
-                    marginTop: '1.875rem', //30px
+                    height: '100vh',
+                    margin: '1.875rem auto', //30px
                     maxWidth: '440px',
-                    padding: '0'
+                    padding: '6.25rem 0 0 0'
                 }}
                 tablet={16}
                 width={8}
             >
                 <Card style={{width: '440px'}}>
-                    <Card.Content>
+                    <Card.Content style={{ padding: '0' }}>
                         <Image 
                             size='medium'
                             src='https://blog.bitcointrade.com.br/wp-content/uploads/2018/06/surpreendase-com-a-origem-do-bitcoin-a-moeda-virtual.jpeg' 
@@ -84,7 +84,7 @@ const Exibition = () => {
                             style={{
                                 marginBottom: '3rem',
                                 marginTop: '1.5rem', 
-                                padding: '0 20px'
+                                padding: '0 1.25rem'
                             }}
                         >
                             A origem do Bitcoin é tão interessante quanto a sua evolução no mercado. Criada há quase uma década, a moeda virtual alcançou patamares históricos de cotações, atraindo ainda mais visibilidade para a economia digital e transformando a criptomoeda em <b>um dos investimentos mais atrativos do momento</b>.
@@ -135,9 +135,10 @@ const Exibition = () => {
                         backgroundColor: '#ffffff', 
                         borderRadius: '40px 5px 5px 10px', 
                         height: '7.5rem',
-                        padding: '10px 0 0 0',
-                        position: 'absolute',
-                        right: '0px',
+                        padding: '0.625rem 0 0 0',
+                        position: 'fixed',
+                        right: '0',
+                        top: '15%',
                         width: '9rem'
                     }}
                 >
