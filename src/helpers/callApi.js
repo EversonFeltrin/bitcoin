@@ -22,7 +22,7 @@ export const callViaCEP = (zipCode) => fetch(`https://viacep.com.br/ws/${zipCode
  * @author Everson F. Feltrin
  * @since 2021-05-25
  */
-export const callCoinDesk = () => fetch("https://api.coindesk.com/v1/bpi/currentprice.json", { method: 'GET' })
+export const callCoinDesk = () => fetch('https://api.coindesk.com/v1/bpi/currentprice.json', { method: 'GET' })
     .then(response => response.json());
 
 /*eslint-disable*/

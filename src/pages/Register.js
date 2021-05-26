@@ -99,7 +99,7 @@ const Register = () => {
         /*eslint-disable-next-line*/
     }, [loadingZipCode])
 
-    if (redirect) return <Redirect to={`/exibition`} />    
+    if (redirect) return <Redirect to={'/exibition'} />    
 
     return (          
         <Grid 
@@ -180,7 +180,7 @@ const Register = () => {
                                     fluid 
                                     label='CEP' 
                                     value={cepMask(data.zipCode)}
-                                    maxLength="8"
+                                    maxLength='8'
                                     onChange={(e, { name, value }) => handleChange(name, value)}
                                     required 
                                 />
@@ -226,8 +226,8 @@ const Register = () => {
                 </Card>
                 <div 
                     style={{
-                        color: "#ffffff",
-                        fontSize: "1rem",
+                        color: '#ffffff',
+                        fontSize: '1rem',
                         paddingTop: '1.25rem' //20px
                     }}
                 >

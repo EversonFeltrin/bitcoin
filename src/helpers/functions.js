@@ -13,11 +13,11 @@ import 'react-toastify/dist/ReactToastify.css';
  */
 export const makeToast = (content, type = 'success') => {
     if (type === 'success') {
-        toast.success((<p><Icon name="check" /> {content} </p>), { transition: Zoom, position: "top-right", autoClose: 5000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true });
+        toast.success((<p><Icon name='check' /> {content} </p>), { transition: Zoom, position: 'top-right', autoClose: 5000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true });
     } else if (type === 'error') {
-        toast.error((<p> <Icon name="cancel" /> {content} </p>), { transition: Zoom, position: "top-right", autoClose: 5000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true });
+        toast.error((<p> <Icon name='cancel' /> {content} </p>), { transition: Zoom, position: 'top-right', autoClose: 5000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true });
     } else if (type === 'warning') {
-        toast.warning((<p> <Icon name="warning sign" /> {content} </p>), { transition: Zoom, position: "top-right", autoClose: 5000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true });
+        toast.warning((<p> <Icon name='warning sign' /> {content} </p>), { transition: Zoom, position: 'top-right', autoClose: 5000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true });
     }
 };
 

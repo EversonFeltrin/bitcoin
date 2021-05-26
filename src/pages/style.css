@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;    
-    font-family: "OpenSans"!important;
+    font-family: 'OpenSans'!important;
     color: #adadad!important;
 }
 
@@ -14,14 +14,14 @@ body {
     color: #adadad!important;
     font-size: 1rem!important;
     margin-bottom: 2rem!important;    
-    font-family: "OpenSans";
+    font-family: 'OpenSans';
 }
 
 .ui.form .field>label {
     display: block;
     color: #adadad!important;
     font-size: 0.75rem !important;
-    font-family: "OpenSans";
+    font-family: 'OpenSans';
 }
 
 .ui.form .required.fields:not(.grouped) > .field > label:after,
